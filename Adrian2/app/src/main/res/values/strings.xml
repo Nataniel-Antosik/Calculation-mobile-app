@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="showInformation">Incomplete data</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result</string>
+    <string name="count_initial_value">0</string>
+    <string name="weight_value">Enter the weight value</string>
+    <string name="area_value">Enter the area value</string>
+    <string name="value_a_square">Enter a value</string>
+    <string name="result_square">0</string>
+    <string name="value_a_circle">Enter r value</string>
+    <string name="calculation">Calculation</string>
+    <string name="value_h_triangle">Enter h value</string>
+    <string name="value_a_triangle">Enter a value</string>
+</resources>
