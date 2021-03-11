@@ -10,11 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CalculatingAreaTriangle"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity"
+            android:label = "@string/calculating_area_trinagle">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adrian.MainActivity"/>
+        </activity>
         <activity android:name=".CalculatingAreaSquare"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity"
+            android:label = "@string/calculating_area_square">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adrian.MainActivity"/>
+        </activity>
         <activity android:name=".CalculatingAreaCircle"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity"
+            android:label = "@string/calculating_area_circle">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adrian.MainActivity"/>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

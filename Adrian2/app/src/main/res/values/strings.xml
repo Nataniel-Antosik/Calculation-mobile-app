@@ -12,4 +12,7 @@
     <string name="calculation">Calculation</string>
     <string name="value_h_triangle">Enter h value</string>
     <string name="value_a_triangle">Enter a value</string>
+    <string name="calculating_area_circle">Calculating Area Circle</string>
+    <string name="calculating_area_trinagle">Calculating Area Trinagle</string>
+    <string name="calculating_area_square">Calculating Area Square</string>
 </resources>

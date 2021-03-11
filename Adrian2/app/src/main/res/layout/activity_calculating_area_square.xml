@@ -25,20 +25,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:id="@+id/Result"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/result_square"
-            android:textSize="36sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_result"
-            app:layout_constraintVertical_bias="0.066" />
-
         <EditText
             android:id="@+id/value_a_square"
             android:layout_width="match_parent"
@@ -56,30 +42,17 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView3"
             app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:id="@+id/text_result"
+        <Button
+            android:id="@+id/calculation_square"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/result"
-            android:textSize="30sp"
+            android:text="@string/calculation"
+            android:onClick="returnMessage"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/value_a_square"
-            app:layout_constraintVertical_bias="0.083" />
-
-        <Button
-            android:id="@+id/calculation_square"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/calculation"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.504"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Result"
-            app:layout_constraintVertical_bias="0.181" />
+            app:layout_constraintVertical_bias="0.112" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

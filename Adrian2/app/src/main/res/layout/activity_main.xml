@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <EditText
-            android:id="@+id/value1"
+            android:id="@+id/value_mass"
             android:layout_width="0dp"
             android:layout_height="62dp"
             android:layout_centerHorizontal="true"
@@ -31,7 +31,7 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/value2"
+            android:id="@+id/value_area"
             android:layout_width="0dp"
             android:layout_height="62dp"
             android:layout_centerHorizontal="true"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/value1"
+        app:layout_constraintTop_toBottomOf="@+id/value_mass"
         app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/value2"
+        app:layout_constraintTop_toBottomOf="@+id/value_area"
         app:layout_constraintVertical_bias="0.061" />
 
     <Spinner

@@ -16,27 +16,14 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="323dp"
-            android:layout_height="255dp"
+            android:layout_width="331dp"
+            android:layout_height="309dp"
             android:src="@drawable/triangle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-        <TextView
-            android:id="@+id/Result_triangle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/result_square"
-            android:textSize="36sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_result_triangle"
             app:layout_constraintVertical_bias="0.0" />
 
         <EditText
@@ -76,31 +63,18 @@
             app:layout_constraintTop_toBottomOf="@+id/value_a_triangle"
             app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:id="@+id/text_result_triangle"
+        <Button
+            android:id="@+id/calculation_triangle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/result"
-            android:textSize="30sp"
+            android:text="@string/calculation"
+            android:onClick="returnMessage"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/value_h_triangle"
-            app:layout_constraintVertical_bias="0.045" />
-
-        <Button
-            android:id="@+id/calculation_triangle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/calculation"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Result_triangle"
-            app:layout_constraintVertical_bias="0.051" />
+            app:layout_constraintVertical_bias="0.111" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
