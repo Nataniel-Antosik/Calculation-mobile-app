@@ -4,52 +4,45 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.text.DecimalFormat;
-
-public class CalculatingAreaTriangle extends AppCompatActivity {
-
-    private TextView mShowResult;
-    public DecimalFormat df = new DecimalFormat("############.####");
-    public static String EXTRA_MESSAGE_TRINAGLE = "com.example.adrian.extra.MESSAGE";
+public class CalculatingAreaRectangle extends AppCompatActivity {
+    public static String EXTRA_MESSAGE_RECTANGLE = "com.example.adrian.extra.MESSAGE";
     public EditText a = null;
-    public EditText h = null;
+    public EditText b = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculating_area_triangle);
-        a = findViewById(R.id.value_a_triangle);
-        h = findViewById(R.id.value_h_triangle);
-
+        setContentView(R.layout.activity_calculating_area_rectangle);
+        a = findViewById(R.id.value_a_rectangle);
+        b = findViewById(R.id.value_b_rectangle);
     }
 
     public void returnMessage(View view){
         if(isEmpty(a) != true){
             showWrongInformation();
         } else {
-            if (isEmpty(h) != true){
+            if(isEmpty(b) != true){
                 showWrongInformation();
             } else {
-                double A = Double.parseDouble(a.getText().toString());
-                double H = Double.parseDouble(h.getText().toString());
-                double result = areaTrinagle(A, H);
+                double value1 = Double.parseDouble(a.getText().toString());
+                double value2 = Double.parseDouble(b.getText().toString());
+                double result = areaRectangle(value1, value2);
 
                 String message = Double.toString(result);
                 Intent intent = new Intent();
-                intent.putExtra(EXTRA_MESSAGE_TRINAGLE, message);
+                intent.putExtra(EXTRA_MESSAGE_RECTANGLE, message);
                 setResult(RESULT_OK,intent);
                 finish();
             }
         }
     }
 
-    public double areaTrinagle(double a, double h) {
-        double result = (a * h) / 2.0;
+    public double areaRectangle(double a, double b){
+        double result = a * b;
         return result;
     }
 

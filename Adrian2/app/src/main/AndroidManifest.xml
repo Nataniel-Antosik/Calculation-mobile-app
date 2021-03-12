@@ -9,26 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CalculatingAreaTriangle"
-            android:parentActivityName=".MainActivity"
-            android:label = "@string/calculating_area_trinagle">
+        <activity
+            android:name=".CalculatingAreaRectangle"
+            android:label="@string/calculating_area_rectangle"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.adrian.MainActivity"/>
+                android:value="com.example.adrian.MainActivity" />
         </activity>
-        <activity android:name=".CalculatingAreaSquare"
-            android:parentActivityName=".MainActivity"
-            android:label = "@string/calculating_area_square">
+        <activity
+            android:name=".CalculatingAreaTriangle"
+            android:label="@string/calculating_area_trinagle"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.adrian.MainActivity"/>
+                android:value="com.example.adrian.MainActivity" />
         </activity>
-        <activity android:name=".CalculatingAreaCircle"
-            android:parentActivityName=".MainActivity"
-            android:label = "@string/calculating_area_circle">
+        <activity
+            android:name=".CalculatingAreaSquare"
+            android:label="@string/calculating_area_square"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.adrian.MainActivity"/>
+                android:value="com.example.adrian.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CalculatingAreaCircle"
+            android:label="@string/calculating_area_circle"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adrian.MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

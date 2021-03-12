@@ -158,6 +158,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.square:
                 openCalculatingSquare();
                 break;
+            case R.id.rectangle:
+                openCalculatingRectangle();
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -171,6 +174,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openCalculatingSquare(){
         Intent intent = new Intent(this, CalculatingAreaSquare.class);
+        startActivityForResult(intent, TEXT_REQUEST);
+    }
+
+    public void openCalculatingRectangle(){
+        Intent intent = new Intent(this, CalculatingAreaRectangle.class);
         startActivityForResult(intent, TEXT_REQUEST);
     }
 
