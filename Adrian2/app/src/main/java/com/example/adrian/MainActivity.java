@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         spinnerX1 = findViewById(R.id.spinner1);
         List<String> mass = new ArrayList<>();
-        mass.add("Choose m");
+        mass.add("Choose mass");
         mass.add("mg");
         mass.add("g");
         mass.add("kg");
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         List<String> area = new ArrayList<>();
-        area.add("Choose p");
+        area.add("Choose area");
         area.add("mm²");
         area.add("cm²");
         area.add("m²");
@@ -248,7 +248,7 @@ public class MainActivity extends AppCompatActivity {
         double tmp = 0.0;
         Button Converter = (Button) findViewById(R.id.Converter);
 
-        if((Mass != "Choose m" && Area != "Choose p") && (value_mass.getText().toString().isEmpty() != true && value_area.getText().toString().isEmpty() != true)){
+        if((Mass != "Choose mass" && Area != "Choose area") && (value_mass.getText().toString().isEmpty() != true && value_area.getText().toString().isEmpty() != true)){
             tmp = calculations(value_mass, value_area);
             mShowCount.setText(df.format(tmp));
         } else {

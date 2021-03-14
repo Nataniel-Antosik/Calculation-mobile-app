@@ -5,18 +5,22 @@
 
     <item android:id="@+id/circle"
         android:title="@string/circle"
-        app:showAsAction="never"/>
+        android:icon="@drawable/iconcircle"
+        app:showAsAction="always"/>
 
     <item android:id="@+id/triangle"
         android:title="@string/triangle"
-        app:showAsAction="never"/>
+        android:icon="@drawable/icontrinagle"
+        app:showAsAction="always"/>
 
     <item android:id="@+id/square"
         android:title="@string/square"
-        app:showAsAction="never"/>
+        android:icon="@drawable/iconsquare"
+        app:showAsAction="always"/>
 
     <item android:id="@+id/rectangle"
         android:title="@string/rectangle"
-        app:showAsAction="never"/>
+        android:icon="@drawable/iconrectangle"
+        app:showAsAction="always"/>
 
 </menu>

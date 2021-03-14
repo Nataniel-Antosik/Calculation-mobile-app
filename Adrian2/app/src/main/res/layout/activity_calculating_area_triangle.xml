@@ -16,15 +16,15 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="331dp"
-            android:layout_height="309dp"
+            android:layout_width="328dp"
+            android:layout_height="326dp"
             android:src="@drawable/triangle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.066" />
 
         <EditText
             android:id="@+id/value_a_triangle"
