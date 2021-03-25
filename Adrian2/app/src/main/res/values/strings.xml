@@ -15,7 +15,7 @@
     <string name="value_a_rectangle">Enter a value</string>
     <string name="value_b_rectangle">Enter b value</string>
     <string name="calculating_area_circle">Calculating Area Circle</string>
-    <string name="calculating_area_trinagle">Calculating Area Trinagle</string>
+    <string name="calculating_area_trinagle">Calculating Area Triangle</string>
     <string name="calculating_area_square">Calculating Area Square</string>
     <string name="calculating_area_rectangle">Calculating Area Rectangle</string>
     <string name="circle">Circle</string>
