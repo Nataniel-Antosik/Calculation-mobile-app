@@ -7,6 +7,6 @@ Project is created with:
 * XML
 * Android Studio
 
-## First look
+## Application views
 <img src ="1Picture.jpg" widith="500" height="700"> <img src ="2Picture.jpg.jpg" widith="500" height="700"> <img src ="3Picture.jpg.jpg" widith="500" height="700">
 <img src ="4Picture.jpg.jpg" widith="500" height="700"> <img src ="5Picture.jpg.jpg" widith="500" height="700"> <img src ="6Picture.jpg" widith="500" height="700">
